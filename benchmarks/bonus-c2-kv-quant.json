@@ -1,0 +1,42 @@
+[
+  {
+    "n_ctx": 2048,
+    "cache_type": "f16 (default)",
+    "rss_after_load_mb": 3946.9,
+    "rss_after_request_mb": 3954.3,
+    "decode_tok_s": 6.19,
+    "prefill_tok_s": 34.04,
+    "wall_s": 8.36,
+    "answer": "PagedAttention solves the memory inefficiency and high computational cost associated with traditional attention mechanisms, particularly in long sequence processing. It achieves this by implementing a memory management system similar to virtual memory paging, allowing for more efficient and flexible handling of attention computations."
+  },
+  {
+    "n_ctx": 2048,
+    "cache_type": "q8_0",
+    "rss_after_load_mb": 3940.8,
+    "rss_after_request_mb": 3943.2,
+    "decode_tok_s": 5.02,
+    "prefill_tok_s": 31.98,
+    "wall_s": 10.8,
+    "answer": "PagedAttention solves the memory inefficiency and high computational cost associated with traditional attention mechanisms in large language models. It achieves this by implementing a memory management system similar to virtual memory for attention keys and values, allowing for more efficient handling of long sequences and larger contexts."
+  },
+  {
+    "n_ctx": 8192,
+    "cache_type": "f16 (default)",
+    "rss_after_load_mb": 4020.0,
+    "rss_after_request_mb": 4022.3,
+    "decode_tok_s": 5.22,
+    "prefill_tok_s": 22.27,
+    "wall_s": 10.12,
+    "answer": "PagedAttention solves the memory inefficiency and high computational cost associated with traditional attention mechanisms, particularly in long sequence processing. It achieves this by implementing a memory management system similar to virtual memory paging, allowing for more efficient and flexible handling of attention computations."
+  },
+  {
+    "n_ctx": 8192,
+    "cache_type": "q8_0",
+    "rss_after_load_mb": 3979.0,
+    "rss_after_request_mb": 3983.3,
+    "decode_tok_s": 5.11,
+    "prefill_tok_s": 22.51,
+    "wall_s": 10.89,
+    "answer": "PagedAttention solves the memory inefficiency and high computational cost associated with traditional attention mechanisms in large language models. It achieves this by implementing a memory management system similar to virtual memory for attention keys and values, allowing for more efficient handling of long sequences and larger contexts."
+  }
+]
